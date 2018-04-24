@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbbbbb
+">    <!-- The primary full-screen view. This can be replaced with whatever view
+     is needed to present your content, e.g. VideoView, SurfaceView,
+     TextureView, etc. -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="Welcome User"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:textSize="40sp"
+        android:textStyle="normal" />    <!-- This FrameLayout insets its children based on system windows using
+     android:fitsSystemWindows. --></RelativeLayout>
